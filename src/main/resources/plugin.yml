@@ -1,0 +1,14 @@
+name: CoinflipPlugin
+version: 1.0.0
+main: de.cuteghg.coinflip.CoinflipPlugin
+api-version: '1.20'
+author: cuteGHG
+commands:
+  coinflip:
+    description: Öffnet die Coinflip GUI
+    usage: /coinflip
+    permission: coinflip.use
+permissions:
+  coinflip.use:
+    description: Erlaubt das Nutzen vom Coinflip Plugin
+    default: true
