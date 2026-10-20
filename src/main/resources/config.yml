@@ -1,0 +1,59 @@
+stakes:
+  min: 1
+  max: 2304
+
+gui:
+  main:
+    size: 54
+    title: "&8Coinflip &7- Seite %page%"
+    list-slots:
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+  buttons:
+    create: 45
+    prev: 46
+    refresh: 49
+    next: 52
+    close: 53
+  confirm:
+    title: "&8Coinflip bestätigen"
+    confirm-slot: 11
+    back-slot: 13
+    cancel-slot: 15
+
+messages:
+  only-player: "&cNur Spieler können diesen Befehl nutzen."
+  no-permission: "&cDazu hast du keine Berechtigung."
+  enter-stake: "&eBitte gib deinen Einsatz im Chat ein (Zahl) oder schreibe &ccancel&e."
+  invalid-number: "&cUngültige Zahl. Bitte versuche es erneut."
+  stake-out-of-range: "&cDer Einsatz muss zwischen %min% und %max% Diamanten liegen."
+  input-cancelled: "&7Eingabe abgebrochen."
+  not-enough-diamonds: "&cDu hast nicht genug Diamanten."
+  transaction-failed: "&cTransaktion fehlgeschlagen. Bitte versuche es erneut."
+  already-open: "&cDu hast bereits einen offenen Coinflip."
+  flip-created: "&aCoinflip erstellt! Einsatz: &b%stake% &aDiamanten (&7ID: %id%&a)."
+  flip-cancelled: "&eDein Coinflip wurde abgebrochen. &a%stake% Diamanten wurden zurückgegeben."
+  cancel-failed: "&cCoinflip konnte nicht abgebrochen werden."
+  join-failed: "&cBeitritt fehlgeschlagen. Der Coinflip ist nicht mehr verfügbar."
+  flip-finished: "&7Coinflip beendet. Gewinner: &a%winner%&7, Pot: &b%pot% Diamanten"
+  you-won: "&aDu hast den Coinflip gewonnen! Auszahlung: &b%pot% Diamanten"
+  refund-paid: "&aDu hast eine sichere Rückerstattung über &b%amount% &aDiamanten erhalten."
